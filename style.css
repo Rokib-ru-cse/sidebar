@@ -29,6 +29,8 @@
   padding: 20px 20px;
   background-color: white;
   transition: all 1s ease-in-out;
+  transform: translate(-100%);
+
 
 }
 .side-item:first-child {
@@ -36,7 +38,7 @@
     justify-content: space-between;
 }
 .sidedisplay{
-    transform: translate(-100%);
+  transform: translate(0);
     transition: all 1s ease-in-out;
 }
 .side-item ul li{
